@@ -1,0 +1,190 @@
+body{
+    background-color: #F7ECDE!important;
+    
+}
+::selection{
+    background-color: #FEC260;
+}
+h1 {
+    font-size: 50px!important;
+    font-family: "Pacifico", cursive!important;
+    color: #352e28!important;
+    isolation: isolate!important;
+    position: relative!important; 
+    z-index: 1!important;
+    overflow: hidden;
+}
+
+h1::after {
+    content: "";
+    width: 270px; 
+    height: 17px; 
+    background-color: #FEC260;
+    position: absolute; 
+    top: 75%; 
+    left: 50%; 
+    transform: translate(-50%, -75%); 
+    z-index: -1;
+    transition: all 0.3s ease-in-out;
+    transform-origin: bottom;
+}
+
+h1:hover::after {
+    transform: translate(-50%, -75%) scaleY(2);
+    overflow: hidden;
+}
+label{
+    font-family: "PT Sans Caption", sans-serif;
+}
+th{
+    font-family: "PT Sans Caption", sans-serif;
+}
+.btn1{
+    background-color:#9eb23b!important;
+    border: none;
+    border-radius: 5px;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    padding-top: 0.375rem;
+    padding-bottom: 0.375rem;
+    color: white;
+    font-family: "PT Sans Caption", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    text-decoration: none;
+
+}
+.btn1 i{
+    margin-right: 8px;
+}
+.btn2{
+    background-color:#eb1d36;
+    border: none;
+    border-radius: 5px;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    padding-top: 0.375rem;
+    padding-bottom: 0.375rem;
+    color: white;
+    font-family: "PT Sans Caption", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    text-decoration: none;
+}
+.btn2 i{
+    margin-right: 8px;
+}
+.bookmark-body {
+    border-width: 2px 0 2px 0;
+    border-style: dotted;
+    border-color: #352e28;
+}
+.bookmark-body h2 {
+    font-family: "Righteous", cursive;
+    font-size: 25px;
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+    background-clip: text;
+    color: transparent;
+}
+input::selection {
+    background-color: #fec260!important;
+
+}
+.errorModal{
+    position: fixed;
+    border-radius: 5px;
+    top: 30%;
+    right: 50%;
+    left: 30%;
+    bottom: 50%;
+    background-color: white;
+    width: 500px;
+    height: 280px;
+    z-index: 9999;
+    padding: 1.5rem ;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175) !important;
+}
+.errorModal p{
+    font-family: "Bree Serif", serif;
+    font-size: 21px;
+    line-height: 1.3;
+    color: #352e28;
+}
+.cone{
+    color:#F15F5D ;
+    font-size: 20px;
+}
+.ctwo{
+    color:#FEBE2E ;
+    font-size: 20px;
+}
+.cthree{
+    color:#4DB748 ;
+    font-size: 20px;
+}
+p i{
+    color: #BB4120;
+    font-size: 18px;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .375rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    box-shadow: #BB4120;
+}
+.erroricons{
+    display: flex;
+    justify-content: space-between;
+}
+.toggle{
+   display: flex;
+   align-items: center;
+   gap: 7px;
+   margin-left: 10px;
+}
+.errortext{
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.eee{
+    font-size: 20px!important;
+    font-family: "Bree Serif", serif;
+    font-size: 21px;
+    line-height: 1.3;
+    color: #352e28;
+}
+.eee i{
+    margin-right: 10px;
+}
+.background{
+    position: absolute;
+    z-index: 50;
+    inset: 0;
+    background-color: rgba(0, 0, 0, .5);
+}
+.btn-submit {
+    color: #fff!important;
+    background-color: #d1512d!important;
+    border-color: #d1512d!important;
+    transition: all 0.5s;
+}
+.btn-submit:hover {
+    
+    background-color: #a03315!important;
+    border-color: #a03315!important;
+}
+a i{
+    cursor: pointer;
+}
